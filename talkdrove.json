@@ -9,7 +9,7 @@
     "env": {
       "SESSION_ID": {
         "description": "Put your SESSION_ID here. Make sure it starts with SHABAN-MD~  or get session id from here,  https://pti-pair.onrender.com/",
-        "value":"",
+        "value":"SHABAN-MD~qF8XQboB#GRuB-t2Z3TNVao_qrNxOWJXjMOx1H1YIG4Ry_PgtAE4",
         "required": true
         
       },
@@ -36,7 +36,7 @@
     "MODE": {
       "description": "select your bot work type public-private-inbox-group.",
       "required": true,
-      "value": "public"
+      "value": "private"
       
     },
     
@@ -69,7 +69,7 @@
     "AUTO_STATUS_REACT": {
       "description": "Make it true for automatic status react & seen.",
       "required": true,
-      "value": "true"
+      "value": "false"
     }, 
 
     "AUTO_STATUS_REPLY": {
@@ -81,14 +81,14 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*𝑺𝒉𝒂𝒃𝒂𝒏 𝑴𝒅 𝑩𝒐𝒕 𝑽𝒊𝒆𝒘𝒆𝒅 𝒀𝒐𝒖𝒓 𝑺𝒕𝒂𝒕𝒖𝒔 🦄*"
+      "value": "*CONSULTANT_²⁵⁶🦄*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
-      "required": false,
-      "value": "𝐌𝐫 𝐒𝐡𝐚𝐛𝐚𝐧"
+      "required": true,
+      "value": "CONSULTANT_256"
 }, 
 
     "OWNER_NUMBER": {
@@ -145,13 +145,13 @@
     "ADMIN_EVENTS": {
       "description": "make it true if want know who promote or demote a member .",
       "required": true,
-      "value": "false"
+      "value": "true"
     },
 
     "WELCOME": {
       "description": "make it true if want goodbye and welcome message in groups.",
       "required": true,
-      "value": "false"
+      "value": "true"
     },
     
        "ANTI_CALL": {
